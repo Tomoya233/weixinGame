@@ -1,0 +1,56 @@
+{
+  "assets-sort-type": "name",
+  "collision-matrix": [
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "design-resolution-height": 1344,
+  "design-resolution-width": 750,
+  "excluded-modules": [],
+  "facebook": {
+    "appID": "",
+    "audience": {
+      "enable": false
+    },
+    "enable": false,
+    "live": {
+      "enable": false
+    }
+  },
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default",
+    "Player",
+    "Obstacles",
+    "Coin"
+  ],
+  "last-module-event-record-time": 1564104304207,
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "start-scene": "f0c5ea0a-8daa-469c-a82b-cd3014892e9f",
+  "use-customize-simulator": true,
+  "use-project-simulator-setting": false
+}
