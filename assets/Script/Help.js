@@ -1,27 +1,27 @@
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        backButton:{
-            default: null,
-            type: cc.Button
-        }
-    },
+  properties: {
+    backButton: {
+      default: null,
+      type: cc.Button
+    }
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
-        this.AudioPlayer = cc.find("Audio").getComponent("AudioManager");
-        this.backButton.node.on('touchend', this.back.bind(this));
-    },
+  onLoad () {
+    this.AudioPlayer = cc.find('Audio').getComponent('AudioManager')
+    this.backButton.node.on('touchend', this.back.bind(this))
+  },
 
-    back: function(){
-        cc.director.loadScene('Menu');
-    },
+  back: function () {
+    cc.director.loadScene('Menu')
+  },
 
-    start () {
+  start () {
 
-    },
+  }
 
-    // update (dt) {},
-});
+  // update (dt) {},
+})
